@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Skating</title>
+
+<script src="libs/easeljs-0.7.0.min.js"></script>
+<script src="libs/tweenjs-0.5.0.min.js"></script>
+<script src="libs/movieclip-0.7.0.min.js"></script>
+<script src="libs/preloadjs-0.4.0.min.js"></script>
+<script src="sim_01.js"></script>
+<script src="sim_01Dev.js"></script>
+<script src="browserDetect.js"></script>
+
+<style>
+  html, body {
+    height: 100%;
+}
+body {
+    margin: 0;
+}
+    .flex-container {
+
+
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex-container div {
+  display: flex;
+  flex-direction: column;
+  
+}
+a{
+  margin-left: 550px;
+}
+   
+    </style>
+
+</head>
+<body bgcolor="#ffffff">
+	
+
+	
+<body onload="init();">
+    <div class="flex-container">
+      <div>
+		<canvas id="canvas" width="640" height="480"><p>Your browser does not support canvas!</p></canvas>
+    <div class="button">
+    <a href="help.html" target="_blank"> <img src="button.gif" border="0"> </a>
+  </div>
+  </div>
+  </div>
+</body>
+
+
+</body>
+
+
+</html> 
